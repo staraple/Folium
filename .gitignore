@@ -1,1 +1,13 @@
 .DS_Store
+
+# Xcode 用户态(每人不同,不该入库)
+xcuserdata/
+*.xcuserstate
+
+# 构建产物
+build/
+DerivedData/
+
+# 本地构建脚本的临时/调试文件
+scratch/
+*.log
